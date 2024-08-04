@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fruit Information</title>
+    <style>
+        body {
+            background: rgb(255,253,254);
+            background: -moz-radial-gradient(circle, rgba(255,253,254,1) 0%, rgba(255,233,166,1) 100%);
+            background: -webkit-radial-gradient(circle, rgba(255,253,254,1) 0%, rgba(255,233,166,1) 100%);
+            background: radial-gradient(circle, rgba(255,253,254,1) 0%, rgba(255,233,166,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffdfe",endColorstr="#ffe9a6",GradientType=1);
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: #d35400;
+        }
+        .fruit-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 50px 20px;
+        }
+        .fruit-section {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+        .fruit-section h2 {
+            text-align: center;
+            color: #16a085;
+            margin-bottom: 20px;
+        }
+        .fruit-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .fruit-info {
+            text-align: left;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f1c40f;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fruits and Their Benefits</h1>
+    <div class="fruit-container">
+        
+        <div class="fruit-section">
+            <h2>Avocado</h2>
+            <img src="avocado.jpg" alt="Avocado" class="fruit-image">
+            <div class="fruit-info">
+                <p>Avocados are nutrient-dense fruits packed with healthy monounsaturated fats, fiber, vitamins, and minerals. They are known for their creamy texture and versatility in culinary applications. Here are some key benefits and characteristics of avocados:</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Heart Health: Avocados are rich in monounsaturated fats, which can help lower bad cholesterol levels and reduce the risk of heart disease. They also provide potassium, which supports blood pressure regulation.</p>
+                <p>Diabetes Management: Their low glycemic index and high fiber content make them suitable for maintaining stable blood sugar levels.</p>
+                <p>Eye Health: Avocados contain lutein and zeaxanthin, carotenoids that protect the eyes from damage caused by UV light and may reduce the risk of cataracts and macular degeneration.</p>
+                <p>Weight Management: Despite being high in calories, avocados' fiber and healthy fats can promote satiety and support weight management efforts.</p>
+                <p><b>Storage and Ripening:</b></p>
+                <p>Avocados ripen after being harvested. To speed up ripening, place them in a paper bag with a banana or apple. Once ripe, they can be stored in the refrigerator for a few days. To prevent browning of cut avocados, sprinkle with lemon or lime juice and store in an airtight container.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Avocados can be diced and added to salads, blended into smoothies, mashed as a spread on toast, or used as a substitute for butter in baking recipes. They are also commonly used in guacamole and as a topping for various dishes, providing a rich, creamy texture.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Papaya</h2>
+            <img src="papaya.jpg" alt="Papaya" class="fruit-image">
+            <div class="fruit-info">
+                <p>Papayas are tropical fruits known for their sweet flavor and vibrant orange flesh. They offer numerous health benefits due to their rich nutrient profile.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Digestive Health: Papayas contain the enzyme papain, which aids in digestion and can help relieve constipation.</p>
+                <p>Immune Support: High in vitamin C, papayas help boost the immune system. They also contain vitamin A, which is essential for skin and eye health.</p>
+                <p>Anti-inflammatory Properties: The fruit is rich in antioxidants such as beta-carotene, which help reduce inflammation and oxidative stress.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Papayas can be eaten fresh, added to fruit salads, blended into smoothies, or used in salsas and desserts. The seeds are also edible and have a peppery taste, often used as a spice.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Banana</h2>
+            <img src="banana.jpg" alt="Banana" class="fruit-image">
+            <div class="fruit-info">
+                <p>Bananas are one of the most popular fruits globally, known for their convenient natural packaging and numerous health benefits.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Energy Boost: Bananas are an excellent source of quick energy due to their high carbohydrate content.</p>
+                <p>Heart Health: Rich in potassium, bananas help maintain healthy blood pressure levels.</p>
+                <p>Digestive Health: Their fiber content aids in digestion and can help prevent constipation.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Bananas can be eaten on their own, sliced into cereals or yogurts, blended into smoothies, or used in baking (e.g., banana bread).</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Cherries</h2>
+            <img src="cherries.jpg" alt="Cherries" class="fruit-image">
+            <div class="fruit-info">
+                <p>Cherries are small stone fruits that are both delicious and packed with nutrients.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Antioxidant Rich: Cherries are high in antioxidants, particularly anthocyanins, which help reduce inflammation and may lower the risk of chronic diseases.</p>
+                <p>Sleep Aid: They contain melatonin, which can help regulate sleep cycles.</p>
+                <p>Pain Relief: Some studies suggest that cherries can help reduce symptoms of arthritis and gout.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Cherries can be eaten fresh, added to salads, made into jams, or used in desserts like pies and tarts.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Pear</h2>
+            <img src="pear.jpg" alt="Pear" class="fruit-image">
+            <div class="fruit-info">
+                <p>Pears are juicy and sweet fruits that offer a range of health benefits.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Digestive Health: Pears are high in dietary fiber, which supports healthy digestion.</p>
+                <p>Heart Health: Their fiber content also helps reduce cholesterol levels.</p>
+                <p>Antioxidants: Pears contain vitamins C and K, which help protect cells from oxidative damage.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Pears can be eaten fresh, poached, added to salads, or used in baking.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Pineapple</h2>
+            <img src="pineapple.jpg" alt="Pineapple" class="fruit-image">
+            <div class="fruit-info">
+                <p>Pineapples are tropical fruits known for their sweet and tart flavor.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Digestive Health: Pineapples contain bromelain, an enzyme that aids in digestion.</p>
+                <p>Immune Support: High in vitamin C, pineapples boost the immune system.</p>
+                <p>Anti-inflammatory: Bromelain also has anti-inflammatory properties.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Pineapples can be eaten fresh, juiced, added to fruit salads, or used in cooking (e.g., pineapple chicken).</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Watermelon</h2>
+            <img src="watermelon.jpg" alt="Watermelon" class="fruit-image">
+            <div class="fruit-info">
+                <p>Watermelon is a refreshing fruit high in water content, perfect for hydration.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Hydration: With over 90% water, watermelon is excellent for keeping hydrated.</p>
+                <p>Antioxidants: It contains lycopene and vitamin C, which help combat oxidative stress.</p>
+                <p>Muscle Soreness: Some studies suggest that watermelon juice can help reduce muscle soreness after exercise.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Watermelon can be eaten fresh, blended into smoothies, or added to salads.</p>
+            </div>
+        </div>
+
+        <div class="fruit-section">
+            <h2>Blueberry</h2>
+            <img src="blueberry.jpg" alt="Blueberry" class="fruit-image">
+            <div class="fruit-info">
+                <p>Blueberries are small, nutrient-dense berries known for their high antioxidant content.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Brain Health: Blueberries have been linked to improved brain function and a reduced risk of cognitive decline.</p>
+                <p>Heart Health: They help lower blood pressure and cholesterol levels.</p>
+                <p>Antioxidant Rich: Blueberries are high in vitamins C and K, and other antioxidants.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Blueberries can be eaten fresh, added to cereals or yogurt, blended into smoothies, or used in baking.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Cantaloupe Melon</h2>
+            <img src="cantaloupe.jpg" alt="Cantaloupe Melon" class="fruit-image">
+            <div class="fruit-info">
+                <p>Cantaloupe melons are sweet and hydrating fruits, perfect for summer.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Hydration: High water content makes cantaloupes excellent for hydration.</p>
+                <p>Immune Support: Rich in vitamins A and C, cantaloupes help boost the immune system.</p>
+                <p>Digestive Health: The fiber content aids in digestion.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Cantaloupes can be eaten fresh, added to fruit salads, or blended into smoothies.</p>
+            </div>
+        </div>
+        
+        <div class="fruit-section">
+            <h2>Blackberry</h2>
+            <img src="blackberry.jpg" alt="Blackberry" class="fruit-image">
+            <div class="fruit-info">
+                <p>Blackberries are nutrient-rich berries with a sweet-tart flavor.</p>
+                <p><b>Nutritional Benefits:</b></p>
+                <p>Antioxidant Power: Blackberries are high in vitamins C and K, and other antioxidants.</p>
+                <p>Digestive Health: They are rich in fiber, which supports digestion.</p>
+                <p>Heart Health: Consuming blackberries can help lower cholesterol levels.</p>
+                <p><b>Culinary Uses:</b></p>
+                <p>Blackberries can be eaten fresh, added to cereals, made into jams, or used in desserts.</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        Made By Nilam Raj Kalita
+    </footer>
+</body>
+</html>
